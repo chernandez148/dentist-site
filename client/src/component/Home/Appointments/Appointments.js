@@ -1,6 +1,6 @@
 import React from 'react'
 import signiture from '../../../assets/signiture.png'
-import chair from '../../../assets/dentist-chair.png'
+import cleaning from '../../../assets/cleaning-img.png'
 import './styles.css'
 
 function Appointments() {
@@ -16,7 +16,7 @@ function Appointments() {
                 <div className='appointment-form'>
                     <h2>Book Your Appointment</h2>
                     <div className='appointment-form-wrapper'>
-                        <img src={chair} alt='chair' width="400px" />
+                        <img src={cleaning} alt='chair' />
                         <form>
                             <input type='text' placeholder='Your email address *' />
                             <select>
