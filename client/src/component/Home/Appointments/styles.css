@@ -1,0 +1,57 @@
+.Appointments {
+    background-color: #f6f6f6;
+}
+
+.appointments-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+    z-index: 99;
+}
+
+.appointments-wrapper .testimonial {
+    background-color: #0e53ae;
+    height: 300px;
+}
+
+.appointments-wrapper .appointment-form {
+    background-color: white;
+}
+
+.testimonial {
+    left: 25px;
+    z-index: 3;
+}
+
+.appointment-form {
+    right: 25px;
+}
+
+.appointment-form h2 {
+    text-align: center;
+    padding: 0.5rem 0 2rem 0;
+    margin: 1.5rem;
+    font-size: 34px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    color: #1f56ad;
+}
+
+.testimonial,
+.appointment-form {
+    position: relative;
+}
+
+.appointment-form-wrapper {
+    display: flex;
+}
+
+.appointment-form-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
